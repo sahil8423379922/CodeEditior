@@ -1,4 +1,5 @@
 {
+  "homepage": "https://sahil8423379922.github.io.github.io/CodeEditior",
   "name": "markdown-previewer",
   "private": true,
   "version": "0.0.0",
@@ -15,7 +16,9 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
     "react-dom": "^18.2.0",
-    "react-draggable": "^4.4.6"
+    "react-draggable": "^4.4.6",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist"
   },
   "devDependencies": {
     "@types/react": "^18.2.64",
@@ -25,6 +28,7 @@
     "eslint-plugin-react": "^7.34.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "gh-pages": "^6.1.1",
     "vite": "^5.1.6"
   }
 }
